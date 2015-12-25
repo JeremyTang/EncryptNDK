@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Encryptor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="aes_encrypt">AES加密</string>
+    <string name="aes_decrypt">AES解密</string>
+    <string name="des_encrypt">DES加密</string>
+    <string name="des_decrypt">DES解密</string>
+    
+    <string name="encrypt">加密</string>
+    <string name="decrypt">解密</string>
+
+</resources>

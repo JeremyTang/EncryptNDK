@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btn_encrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/encrypt" />
+
+    <Button
+        android:id="@+id/btn_decrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_encrypt"
+        android:text="@string/decrypt" />
+
+    <EditText
+        android:id="@+id/edit_encrypt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_decrypt"
+        android:focusable="false"
+        android:gravity="left|top"
+        android:clickable="false" />
+
+</RelativeLayout>
